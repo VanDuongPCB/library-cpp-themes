@@ -1,0 +1,15 @@
+#btnAdd,
+#btnAddUser,
+#btnAddParam,
+#btnCreateOrChange,
+#btnMACRange {
+    background-color: rgb(61, 161, 61);
+}
+
+#btnRemove,
+#tbnRemoveUser,
+#btnDelete,
+#btnRemoveParam,
+#btnBlockClear {
+    background-color: #ce5050;
+}

@@ -1,0 +1,24 @@
+QTableView {
+    border: none;
+    color: #eee;
+    background-color: rgba(255, 255, 255, 0.05);
+    gridline-color: rgba(255, 255, 255, 0.05);
+    alternate-background-color: rgba(255, 255, 255, 0.05);
+}
+
+QTableCornerButton::section {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+QHeaderView {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+QHeaderView::section {
+    color: #eee;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+QTableView:item:selected{
+    background-color: rgba(0,0,0,0.03);
+}

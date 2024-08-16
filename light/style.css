@@ -1,0 +1,7 @@
+QMainWindow{
+    background-color: #fff;
+}
+
+QTabWidget{
+    background-color: green;
+}

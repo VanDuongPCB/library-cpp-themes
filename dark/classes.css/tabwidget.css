@@ -1,0 +1,64 @@
+
+
+QTabBar {
+    /* background-color: #323232; */
+}
+
+QTabBar::tab {   
+    border: 0px solid rgba(255, 255, 255, 0);
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+    border-radius: 0px;
+    padding: 5px;
+    color: #eee;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+QTabBar::tab:hover {
+    border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+QTabBar::tab:selected {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+QTabWidget::pane {
+    border: none;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+/* 
+QTabBar::tab:top,
+QTabBar::tab:bottom {
+    min-width: 8ex;
+    margin-right: -1px;
+    padding: 5px 10px 5px 10px;
+}
+
+QTabBar::tab:top:last,
+QTabBar::tab:bottom:last,
+QTabBar::tab:top:only-one,
+QTabBar::tab:bottom:only-one {
+    margin-right: 0;
+}
+
+QTabBar::tab:left,
+QTabBar::tab:right {
+    min-height: 8ex;
+    margin-bottom: -1px;
+    padding: 10px 5px 10px 5px;
+}
+
+QTabBar::tab:left:selected {
+    border-left-color: none;
+}
+
+QTabBar::tab:right:selected {
+    border-right-color: none;
+}
+
+QTabBar::tab:left:last,
+QTabBar::tab:right:last,
+QTabBar::tab:left:only-one,
+QTabBar::tab:right:only-one {
+    margin-bottom: 0;
+} */
